@@ -3,6 +3,7 @@
 
 /* other css file imports */
 @import url("sections/header.css");
+@import url("sections/hero.css");
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
