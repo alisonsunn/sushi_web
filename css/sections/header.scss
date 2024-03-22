@@ -43,11 +43,10 @@
 .header__menu li img {
   width: 24px;
   height: 24px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .header__menu-mobile {
   display: none;
   position: relative;
-}/*# sourceMappingURL=header.css.map */
+}
