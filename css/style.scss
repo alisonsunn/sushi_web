@@ -4,9 +4,9 @@
 /* other css file imports */
 @import "sections/header";
 @import "sections/hero";
-@import "sections/about.scss";
-@import "sections/popular.scss";
-@import 'mixins';
+@import "sections/about";
+@import "sections/popular";
+@import "mixins";
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
