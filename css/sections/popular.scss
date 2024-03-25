@@ -1,3 +1,5 @@
+@import "../style.css";
+
 .popular-food {
   display: flex;
   flex-direction: column;
@@ -121,13 +123,11 @@
 }
 
 .popular-food__card-content div {
-  @include flex-center;
   gap: 8px;
 }
 
 /* button */
 .popular-food__button {
-  @include flex-center;
   padding: 20px 30px;
   margin: 80px auto 0;
   background: var(--secondary-color);
