@@ -1,3 +1,4 @@
+@import "../style.css";
 /* Nav Bar */
 .header__nav {
   display: flex;

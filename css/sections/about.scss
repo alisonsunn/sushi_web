@@ -1,3 +1,5 @@
+@import "../style.css";
+
 .about-us {
   display: flex;
   overflow: hidden;
@@ -76,20 +78,15 @@
 }
 
 .about-us__content p:first-child {
-  font-size: 18px;
-  font-weight: 400;
-  font-family: var(--plus-jakarta-sans);
-  color: var(--primary-color);
-  opacity: 0.8;
-  letter-spacing: -0.01em;
-}
-
-.about-us__content h3 {
   font-size: 64px;
   font-weight: 600;
   font-family: var(--playfair-display);
   color: var(--secondary-color);
   margin-top: 16px;
+}
+
+.about-us__content h3 {
+  @include sushi-title;
 }
 
 .about-us__content p:last-child {
